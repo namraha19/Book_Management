@@ -2,7 +2,8 @@
 This repository contains a simple book database application that allows users to perform three main operations: reading all book details, adding a new book to the database, and updating existing book information. \
 <b>Running versions of the app can be accessed by the given links</b> \
 with frontend https://library-manager.streamlit.app/ \
-only backend https://library-manager.azurewebsites.net/
+only backend https://library-manager.azurewebsites.net/ \
+frontend Repo https://github.com/namraha19/letsbloom_frontend.git
 
 ### Getting Started
 #### Prerequisites
@@ -83,12 +84,12 @@ Follow the prompts to enter the details of the new book.
 3. Update Book Information
  - To update information for an existing book in the database, make a post request to the given api endpoint:
  ```
-http://127.0.0.1:5000/api/books/bookId
+http://127.0.0.1:5000/api/books/bookId/
 
  ```
 <b>The running version can be accessed here</b>
 ```
-https://library-manager.azurewebsites.net/api/bookId
+https://library-manager.azurewebsites.net/api/books/bookID/
 
 ```
 
