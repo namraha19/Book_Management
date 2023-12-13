@@ -50,6 +50,11 @@ It will run server on localhost.
 http://127.0.0.1:5000/api/books
 
 ```
+<b>The running version can be accessed here</b>
+```
+https://library-manager.azurewebsites.net/api/books
+
+```
 This command will display a list of all books in the database.
 
 2. Add a New Book
@@ -58,6 +63,12 @@ This command will display a list of all books in the database.
 http://127.0.0.1:5000/api/books
 
 ```
+<b>The running version can be accessed here</b>
+```
+https://library-manager.azurewebsites.net/api/books
+
+```
+
 With the request body 
 ```
 {"title":"TITLE OF THE BOOK","authors":"NAME OF THE AUTHOR","isbn13":ISBN,"language_code":"LANGUAGE CODE","num_pages":NUMBER OF PAGES,"publication_date":"PUBLISHING DATE","publisher":"PUBLISHER"}
@@ -71,6 +82,12 @@ Follow the prompts to enter the details of the new book.
 http://127.0.0.1:5000/api/books/bookId
 
  ```
+<b>The running version can be accessed here</b>
+```
+https://library-manager.azurewebsites.net/api/bookId
+
+```
+
 With the request body 
 ```
 {"title":"TITLE OF THE BOOK","authors":"NAME OF THE AUTHOR","isbn13":ISBN,"language_code":"LANGUAGE CODE","num_pages":NUMBER OF PAGES,"publication_date":"PUBLISHING DATE","publisher":"PUBLISHER"}
