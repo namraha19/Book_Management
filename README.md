@@ -1,5 +1,9 @@
 ## Let's Bloom Assignment 
-This repository contains a simple book database application that allows users to perform three main operations: reading all book details, adding a new book to the database, and updating existing book information.
+This repository contains a simple book database application that allows users to perform three main operations: reading all book details, adding a new book to the database, and updating existing book information. \
+<b>Running versions of the app can be accessed by the given links</b> \
+with frontend https://library-manager.streamlit.app/ \
+only backend https://library-manager.azurewebsites.net/
+
 ### Getting Started
 #### Prerequisites
 - Ensure you have Python installed on your system.
